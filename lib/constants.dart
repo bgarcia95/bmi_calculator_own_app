@@ -30,7 +30,34 @@ const kMaxWeight = 200;
 const kMinAge = 18;
 const kMaxAge = 100;
 
+const kTitleTextStyle = TextStyle(
+  fontSize: 45.0,
+  fontWeight: FontWeight.bold,
+);
+
+const kGreenResultLabel = TextStyle(
+  color: Color(0xFF21DE77),
+  fontSize: 22.0,
+  fontWeight: FontWeight.bold,
+);
+
+const kBMIResultNumberTextStyle = TextStyle(
+  fontSize: 100.0,
+  fontWeight: FontWeight.bold,
+);
+
+const kBMIBodyTextStyle = TextStyle(
+  fontSize: 22.0,
+);
+
+const kBMIRangeTextStyle = TextStyle(
+  color: Color(0xFF8A8B95),
+  fontSize: 22.0,
+);
+
 //Label Text Color =  0xFF8D8E98
+
+//Range Result label = 0xFF8A8B95
 
 // Active = 0xFF1D1F33
 // Inactive Color = 0xFF111428,

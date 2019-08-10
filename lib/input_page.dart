@@ -5,6 +5,7 @@ import 'icon_content.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'bottom_button.dart';
 import 'round_icon_button.dart';
+import 'results_page.dart';
 
 enum GenderType {
   male,
@@ -226,7 +227,14 @@ class _InputPageState extends State<InputPage> {
             ),
             BottomButton(
               buttonTitle: 'CALCULATE YOUR BMI',
-              onPress: () {},
+              onPress: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => ResultsPage(),
+                  ),
+                );
+              },
             ),
           ],
         ),
